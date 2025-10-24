@@ -1,0 +1,52 @@
+.flex{
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+
+
+
+}
+
+
+.item{
+display: flex;
+background-color: rgb(245, 213, 179);
+width:200px;
+height:200px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.noto-sans-nko-unjoined {
+  font-family: "Noto Sans NKo Unjoined", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.playwrite-de-sas {
+  font-family: "Playwrite DE SAS", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.nanum-gothic-regular {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
