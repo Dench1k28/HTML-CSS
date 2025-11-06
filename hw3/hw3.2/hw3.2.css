@@ -1,0 +1,46 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-cox;
+}
+
+
+.first{
+font-family: arial, sans-serif;
+height: 50vh;
+background-color: pink;
+
+}
+
+
+
+.second{
+font-family: arial, sans-serif;
+color:white;
+height: 50vh;
+background-color: rgb(51, 51, 51);
+}
+
+
+.top{
+
+display: flex;
+justify-content: center;
+padding-top: 70px;
+font-size: 32px;}
+
+div{
+text-align: center;
+padding-top: 40px;}
+
+
+.p2{
+padding-top: 5px;
+}
+
+.p3{
+padding-top: 5px;
+}
+
+
