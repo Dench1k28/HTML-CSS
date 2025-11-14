@@ -1,0 +1,48 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+text-decoration: none;
+list-style-type: none;
+}
+
+
+header{
+background: #D9D9D9;
+width: 100vw;
+height: 4.5vh;
+}
+
+main{
+display: flex;}
+
+.first{
+height: 73.7vh;
+width:59vw;
+background: #A4A4A4;
+}
+.s1{
+width: 41vw;
+height:40vh;
+background: #7F7A7A;
+}
+
+.s2{
+width: 41vw;
+height: 33.7vh;
+background: #615050;}
+
+
+.third{
+height: 9.9vh;
+width: 100vw;
+background:#D9D9D9;
+}
+
+footer{
+width:100vw;
+height: 11.9vh;
+background: #AFA9A9;
+}
+
+
