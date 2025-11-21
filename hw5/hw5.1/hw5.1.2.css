@@ -18,7 +18,7 @@ align-items: center;
 }
 
 .Ship{
-animation: Ship 3s ease-in-out infinite alternative;
+animation: Ship 3s ease-in-out infinite alternate;
 }
 
 @keyframes Ship {
@@ -59,7 +59,7 @@ transform: translate(300px,0);
 }
 }
 .Wave{
-animation: Wave 3s ease-in-out infinite alternative;
+animation: Wave 3s ease-in-out infinite alternate;
 }
 
 
