@@ -1,0 +1,27 @@
+.circle{
+width:200px;
+height:200px;
+border-radius: 50%;
+border-top: 30px solid yellow;
+border-right: 30px solid blue;
+border-bottom: 30px solid coral;
+border-left: 30px solid teal;
+animation: preloader 6s linear infinite alternate;
+}
+
+@keyframes preloader{
+from{
+transform: rotate(-360deg);
+}
+to{
+transform: rotate(360deg) scale(1.5);
+}
+}
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
