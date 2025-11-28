@@ -1,0 +1,92 @@
+
+body{
+width:100vw;
+height:100vh;
+align-items:center;
+display: flex;
+justify-content:center;
+background: rgb(34, 171, 166);
+font-family: Arial, sens-serif;
+}
+
+.form-registration{
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+width:650px;
+height:450px;
+background: white;
+}
+
+.d1{
+font-size: 36px;
+display:flex;
+justify-content:center;
+align-items:center;
+border-top-right-radius: 12px;
+border-top-left-radius: 12px;
+width:650px;
+height:120px;
+background:rgb(228, 237, 236);
+}
+
+
+
+.d2{
+
+align-items:center;
+display: flex;
+flex-direction: column;
+border-bottom-right-radius: 12px;
+border-bottom-left-radius: 12px;
+width:650px;
+height:330px;
+background:white;;
+}
+
+.i1{
+border:1.5px solid grey;
+margin-top: 18px;
+width:425px;
+height:40px;
+}
+
+.i2{
+border:1.5px solid grey;
+margin-top: 30px;
+width:425px;
+height:40px;
+}
+
+.last{
+
+margin-top: 30px;
+justify-content:space-between;
+display:flex;
+width:431.4px;
+height:40px;
+background:white;
+}
+.tick{
+margin-top:-18px;
+
+}
+
+input{
+border-radius: 0px;
+}
+
+button{
+width: 110px;
+height: 32px;
+border-radius:10px;
+border:1.5px solid grey;
+}
+
+.i1:hover{
+border:1.5px solid grey;
+}
+
+.l1{
+font-size:  20px;
+}
