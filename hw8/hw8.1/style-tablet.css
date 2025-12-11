@@ -1,0 +1,98 @@
+@media screen and (max-width: 768px){
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 768 px;
+height: 654.01 px;
+}
+
+.main{
+width: 720px;
+height:590.01px;
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+}
+
+.top{
+width: 720px;
+height: 263.01px;
+display: flex;
+justify-content: space-between;
+}
+
+.bottom{
+width: 720px;
+height: 263.01px;
+display: flex;
+justify-content: space-between;
+}
+
+.t1{
+width: 218.67px;
+height: 239.01px;
+}
+.t2{
+width: 218.67px;
+height: 239.01px;
+}
+.t3{
+width: 218.67px;
+height: 239.01px;
+}
+.b1{
+width: 218.67px;
+height: 239.01px;
+}
+.b2{
+width: 218.67px;
+height: 239.01px;
+}
+.b3{
+width: 218.67px;
+height: 239.01px;
+}
+
+img{
+border-radius: 10px;
+width:218.67px;
+height:164.01px;
+}
+
+.info{
+height:75px;
+width:218.67px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+h2{
+text-align:center;
+margin-top: 5px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+color: #000000;
+}
+
+p1{
+margin-top: -2px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 13px;
+line-height: 120%;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #3C3C43;
+}
+
+
+
+}

@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 1440 px;
+height: 900.02 px;
+}
+
+.main{
+width: 1180px;
+height:772.02px;
+
+display: flex;
+flex-direction:column;
+justify-content: space-between;
+}
+
+.top{
+width: 1180px;
+height: 354.01px;
+display: flex;
+justify-content: space-between;
+}
+
+.bottom{
+width: 1180px;
+height: 354.01px;
+display: flex;
+justify-content: space-between;
+}
+
+.t1{
+width: 372px;
+height: 354.01px;
+}
+.t2{
+width: 372px;
+height: 354.01px;
+}
+.t3{
+width: 372px;
+height: 354.01px;
+}
+.b1{
+width: 372px;
+height: 354.01px;
+}
+.b2{
+width: 372px;
+height: 354.01px;
+}
+.b3{
+width: 372px;
+height: 354.01px;
+}
+
+img{
+border-radius: 10px;
+width:372px;
+height:279.01px;
+}
+
+.info{
+height:75px;
+width:372px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+
+h2{
+margin-top: 5px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+color: #000000;
+}
+
+p1{
+margin-top: -2px;
+font-family: "Inter", sans-serif;
+font-weight: 700;
+font-size: 13px;
+line-height: 120%;
+letter-spacing: 1.5px;
+text-transform: uppercase;
+color: #3C3C43;
+}
+

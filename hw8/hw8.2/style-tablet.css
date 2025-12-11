@@ -1,0 +1,91 @@
+@media screen and (max-width: 768px){
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+width:100vw;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items: center;
+}
+
+.main{
+width:720px;
+height:556px;
+display:flex;
+
+flex-direction:column;
+}
+.d1{
+width:720px;
+height:258px;
+
+display:flex;
+justify-content: space-between;
+}
+
+.d2{
+width:720px;
+height:258px;
+
+display:flex;
+justify-content: space-between;
+}
+
+.first{
+width:348px;
+height:258px;
+
+flex-direction: column;
+display: flex;
+}
+
+.second{
+width:348px;
+height:258px;
+
+flex-direction: column;
+display: flex;
+}
+
+.top{
+width:348px;
+height:160px;
+
+}
+
+.bottom{
+width:348px;
+height:98px;
+
+}
+
+img{
+width:160px;
+height:160px;
+border-radius: 160px;
+}
+
+h2{
+font-family: "Inter", sans-serif;
+font-style:
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+color: #161543;
+}
+
+p{
+margin-top: -10px;
+font-family: "Inter", sans-serif;
+font-style: Regular
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+paragraph-spacing: 8px;
+color: #161543;
+color: #7687A1;
+}
+
+
+}
