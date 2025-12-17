@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+margin: 0;
+}
+
+.grid{
+height: 100vh;
+display: grid;
+grid-template-columns: 73% 27%;
+grid-template-rows: 20% 20% 10% 10% 20% 20%;
+grid-template-areas:
+"header header"
+"s1 s4"
+"s2 s4"
+"s2 s5"
+"s3 s5"
+"footer footer"
+}
+
+header{
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: regular;
+font-size: 45px;
+line-height: 100%;
+color:#000000;
+grid-area: header;
+background: #8D8484;
+}
+
+.s1{
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: regular;
+font-size: 45px;
+line-height: 100%;
+color:#FFFFFF;
+grid-area: s1;
+background: #776969;
+}
+
+.s2{
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: regular;
+font-size: 45px;
+line-height: 100%;
+color:#FFFFFF;
+grid-area: s2;
+background: #643030;
+}
+
+.s3{
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: regular;
+font-size: 45px;
+line-height: 100%;
+color:#FFFFFF;
+grid-area: s3;
+background: #441818;
+}
+
+.s4{
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: regular;
+font-size: 45px;
+line-height: 100%;
+color:#FFFFFF;
+grid-area: s4;
+background: #937575;
+}
+
+.s5{
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: regular;
+font-size: 45px;
+line-height: 100%;
+color:#FFFFFF;
+grid-area: s5;
+background: #644C4C;
+}
+
+
+footer{
+display: grid;
+justify-content: center;
+align-content: center;
+font-family: "Inter", sans-serif;
+font-weight: 400;
+font-style: regular;
+font-size: 45px;
+line-height: 100%;
+color:#000000;
+grid-area: footer;
+background: #BDBDBD;
+}

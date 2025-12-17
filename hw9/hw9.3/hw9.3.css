@@ -1,0 +1,45 @@
+*{
+margin: 0;
+}
+
+.grid{
+height: 100vh;
+display: grid;
+grid-template-columns: 20% 60% 20%;
+grid-template-rows: 20% 30% 30% 20%;
+grid-template-areas:
+"header header header"
+"left-aside s1 right-aside"
+"left-aside s2 right-aside"
+"footer footer footer"
+}
+
+header{
+grid-area: header;
+background: #D9D9D9;
+}
+
+.left-aside{
+grid-area: left-aside;
+background: #C0BDBD;
+}
+
+.right-aside{
+grid-area: right-aside;
+background: #C0BDBD;
+}
+
+.s1{
+grid-area: s1;
+background: #827878;
+}
+
+.s2{
+grid-area: s2;
+background: #B7ADAD;
+}
+
+footer{
+grid-area: footer;
+background: #D9D9D9;
+}
